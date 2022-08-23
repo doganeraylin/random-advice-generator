@@ -5,7 +5,7 @@ const adviceContainer = document.querySelector('.container');
 const adviceText = document.querySelector('h2')
 const adviceURL = 'https://api.adviceslip.com/advice';
 
-
+// button click event
 
 adviceBtn.addEventListener('click', getAdvice)
 
@@ -19,12 +19,12 @@ async function getAdvice () {
     const {slip} = data;
     const slipAdvice = slip.advice;
     
-    adviceText.textContent = slipAdvice;
-    console.log(data);
-    console.log(slip);
-    console.log(slipAdvice);
+    // change text content 
 
-    
+    adviceText.textContent = slipAdvice;
+    // console.log(data);
+    // console.log(slip);
+    // console.log(slipAdvice);
 
 }
 
