@@ -87,26 +87,32 @@ h2 {
     cursor: pointer;
     transform: scale(1.2);
     
-
 }
 
 @media (max-width: 480px ) {
     .title-container {
         width: 70%;
-        margin: 4rem auto 1rem;
+        margin: 4rem auto 2rem;
     }
 
     h1 {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
 
     }
 
     .text-container {
         padding: 1rem;
+        
     }
 
     .button {
         padding: 0.50rem;
+        font-size: 1.2rem;
+    }
+
+    .button:hover {
+        cursor: pointer;
+        transform: scale(1.1);
     }
 
   
